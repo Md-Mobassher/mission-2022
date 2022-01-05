@@ -1,5 +1,46 @@
 body{
-    
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-left: 10px;
+}
+.orange-color{
+    color:orange;
+}
+.half-width{
+    width: 45%;
+    padding-left: 5px;
+    float: left;
+}
+.first-heading{
+    border-left: 4px solid tomato;
+}
+.read-more-button{
+    text-decoration: none;
+    padding: 15px 35px;
+    background: rgb(54, 54, 207);
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.button{
+    margin-top: 60px 0;
+    display: block;
+}
+.image-area{
+    width: 50%;
 }
