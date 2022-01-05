@@ -5,23 +5,33 @@ body{
     padding: 0;
 }
 .container{
-    width: 1200px;
+    width: 1100px;
     margin: 0 auto;
     display: flex;
+    padding-left: 20px;
 }
-
+section{
+    margin-top: 60px;
+    margin-bottom: 150px;
+}
 h1{
     font-size: 50px;
-    font-family: 'Abril Fatface', cursive;
+    font-family: Abril Fatface;
     font-weight: 400;
     letter-spacing: 1px;
     padding-left: 10px;
+    margin-top: 0;
+}
+h2{
+    font-size:45px;
+    font-family: 'Roboto';
+    font-weight: 900;
 }
 .orange-color{
     color:orange;
 }
 .half-width{
-    width: 45%;
+    width: 50%;
     padding-left: 5px;
     float: left;
 }
@@ -42,5 +52,35 @@ h1{
     display: block;
 }
 .image-area{
+    width: 100%;
+}
+.mission-area h2{
+    text-align: center;
+}
+
+.motive{
+    width: 320px;
+    height: 350px;
+    box-sizing: border-box;
+    justify-content: space-around;
+    padding: 30px;
+    border-radius: 20px;
+    margin-right: 20px;
+    
+}
+.motive p{
+    font-size: 17px;
+}
+.motive img{
     width: 50%;
+}
+
+.mission{
+    background: lightblue;
+}
+.vision{
+    background: rgb(178, 230, 191);
+}
+.goals{
+    background: rgb(245, 215, 215);
 }
