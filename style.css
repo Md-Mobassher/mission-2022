@@ -27,8 +27,8 @@ h2{
     font-size: 35px;
     font-weight: 900;
 }
-.orange-color{
-    color:orange;
+span{
+    color: #ee2471;
 }
 .half-width{
     width: 50%;
@@ -42,20 +42,23 @@ h2{
     width: 57%;
 }
 .first-heading{
-    border-left: 4px solid tomato;
+    border-left: 4px solid #6c47da;
 }
 .read-more-button{
     text-decoration: none;
     padding: 15px 35px;
-    background: rgb(54, 54, 207);
+    background: #6c47da;
     color: white;
     font-weight: 600;
     border-radius: 10px;
     overflow: hidden;
 }
+.read-more-button:hover{
+    background: #ff3081;
+    transition-duration: 1sec;
+}
 .button{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px 0;
 }
 .image-area{
     width: 100%;
@@ -95,6 +98,24 @@ h2{
 .developer-image img{
     width: 90%;
 }
+
+.project{
+    justify-content: justify;
+}
+.project h2{
+   text-align: center;
+   font-size: 40px;
+   font-weight: 700; 
+}
+.project-gallery img{
+    width: 100%;
+}
+
+.html{
+    padding: 15px;
+    border: 1px solid gray;
+}
+
 .footer-section{
     background: rgb(13, 13, 20);
     padding: 30px;
@@ -102,7 +123,10 @@ h2{
     color: white;
 }
 .footer-section h3{
-    font-size: 25px;
+    margin-top: 5px;
+    font-size: 35px;
+    font-family: Abril;
+    font-style: italic;
 }
 .footer-section p{
     font-size: 12px;
