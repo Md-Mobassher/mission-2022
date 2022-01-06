@@ -5,10 +5,10 @@ body{
     padding: 0;
 }
 .container{
-    width: 1100px;
+    width: 1060px;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding-left: 20px;
 }
 section{
@@ -34,6 +34,12 @@ h2{
     width: 50%;
     padding-left: 5px;
     float: left;
+}
+.image-width{
+    width: 40%;
+}
+.content-width{
+    width: 57%;
 }
 .first-heading{
     border-left: 4px solid tomato;
@@ -62,7 +68,7 @@ h2{
 }
 
 .motive{
-    width: 320px;
+    width: 330px;
     height: 350px;
     box-sizing: border-box;
     padding: 30px;
@@ -86,15 +92,19 @@ h2{
 .goals{
     background: rgb(245, 215, 215);
 }
-.developer img{
-    width: 70%;
+.developer-image img{
+    width: 90%;
 }
-.developer-info{
-    margin-left: -100px;
+.footer-section{
+    background: rgb(13, 13, 20);
+    padding: 30px;
+    text-align: center;
+    color: white;
 }
-#coding{
-    justify-content: space-between;
+.footer-section h3{
+    font-size: 25px;
 }
-#global-community{
-    justify-content: space-between;
+.footer-section p{
+    font-size: 12px;
+    color: rgb(148, 130, 130);
 }
