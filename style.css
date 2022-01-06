@@ -43,6 +43,8 @@ span{
 }
 .first-heading{
     border-left: 4px solid #6c47da;
+    margin-top: -5px;
+    margin-bottom: 0;
 }
 .read-more-button{
     text-decoration: none;
@@ -51,7 +53,6 @@ span{
     color: white;
     font-weight: 600;
     border-radius: 10px;
-    overflow: hidden;
 }
 .read-more-button:hover{
     background: #ff3081;
@@ -99,21 +100,24 @@ span{
     width: 90%;
 }
 
-.project{
-    justify-content: justify;
-}
+
 .project h2{
    text-align: center;
    font-size: 40px;
    font-weight: 700; 
 }
+.project h3{
+    font-size: 20px;
+    text-align: center;
+}
 .project-gallery img{
     width: 100%;
 }
 
-.html{
-    padding: 15px;
-    border: 1px solid gray;
+.project-image{
+    width: 450px;
+    padding: 20px;
+    box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.2);
 }
 
 .footer-section{
